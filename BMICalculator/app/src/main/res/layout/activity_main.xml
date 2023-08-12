@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    >
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHeightFt"
+        android:ems="10"
+        android:hint="@string/edtHeightFt"
+        android:inputType="number">
+    </EditText>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHeightIn"
+        android:ems="10"
+        android:hint="@string/edtHeightIn"
+        android:inputType="number">
+    </EditText>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtWeightKg"
+        android:ems="10"
+        android:hint="@string/edtWeightKg"
+        android:inputType="number">
+    </EditText>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CalBMIBtn"
+        android:layout_marginTop="33dp"
+        android:text="Calculate BMI"
+        android:textAllCaps="false"
+        android:padding="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:hint="Result"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp">
+    </TextView>
+
+
+</LinearLayout>

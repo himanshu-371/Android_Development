@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Camera"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="always"
+        android:icon="@drawable/camera"
+        android:id="@+id/camera"/>
+
+    <item
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/search"
+        android:id="@+id/search"/>
+
+    <item
+        android:title="New Group"
+        android:icon="@drawable/newgroup"
+        android:id="@+id/newgroup"/>
+
+    <item
+        android:title="New Broadcast"
+        android:icon="@drawable/broadcastmessage"
+        android:id="@+id/newbroadcast"/>
+
+    <item
+    android:title="Linked Devices"
+    android:icon="@drawable/link"
+    android:id="@+id/linkeddevices"/>
+
+    <item
+    android:title="Starred Messages"
+    android:icon="@drawable/starredmesage"
+    android:id="@+id/starredmessages"/>
+
+    <item
+    android:title="Payments"
+    android:icon="@drawable/payments"
+    android:id="@+id/payments"/>
+
+    <item
+    android:title="Settings"
+    android:icon="@drawable/settings"
+    android:id="@+id/settings"/>
+
+
+</menu>

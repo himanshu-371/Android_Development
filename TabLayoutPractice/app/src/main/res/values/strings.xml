@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TabLayoutPractice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="a_fragment">Hello A fragment</string>
+    <string name="B_fragment">Hello B fragment</string>
+    <string name="C_fragment">Hello C fragment</string>
+</resources>

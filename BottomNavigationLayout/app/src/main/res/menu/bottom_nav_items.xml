@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home">
+    </item>
+
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/baseline_local_see_24"
+        android:title="Camera">
+    </item>
+
+
+    <item
+        android:id="@+id/helpdesk"
+        android:icon="@drawable/baseline_mode_comment_24"
+        android:title="Helpdesk">
+    </item>
+
+
+    <item
+        android:id="@+id/photos"
+        android:icon="@drawable/baseline_photo_24"
+        android:title="Photos">
+    </item>
+
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings">
+    </item>
+
+
+
+
+
+</menu>
