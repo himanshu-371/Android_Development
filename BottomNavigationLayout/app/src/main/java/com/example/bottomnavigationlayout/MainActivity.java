@@ -22,8 +22,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Finding IDs
         bnView = findViewById(R.id.bnView);
 
+//        bnView.setSelectedItemId(R.id.helpdesk); //to set a selected particular item
+//        loadFrag(new HelpdeskFragment(),true);
+
+        //setOnItemSelectedListener
         bnView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -54,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        bnView.setSelectedItemId(R.id.helpdesk);
 
     }
 

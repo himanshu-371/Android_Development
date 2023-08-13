@@ -28,18 +28,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Finding IDs
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navView);
         toolbar = findViewById(R.id.toolbar);
 
-
         setSupportActionBar(toolbar); //setting up toolbar
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open_drawer, R.string.close_drawer);
+//        drawerLayout.addDrawerListener(toggle);  //The addListener function allows you to specify a function that will be called when the drawer opens or closes.
 
-        drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
+        //default fragment
         loadFragments(new HomeFragment(), true);
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
