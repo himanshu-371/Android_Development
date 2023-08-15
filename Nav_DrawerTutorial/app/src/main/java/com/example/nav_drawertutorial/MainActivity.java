@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open_drawer, R.string.close_drawer);
 //        drawerLayout.addDrawerListener(toggle);  //The addListener function allows you to specify a function that will be called when the drawer opens or closes.
-
         toggle.syncState();
 
         //default fragment

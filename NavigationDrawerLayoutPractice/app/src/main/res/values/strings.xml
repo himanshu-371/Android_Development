@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NavigationDrawerLayoutPractice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OPEN_DRAWER">Open Drawer</string>
+    <string name="CLOSE_DRAWER">Close Drawer</string>
+
+</resources>
