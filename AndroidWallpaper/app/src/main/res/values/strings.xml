@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidWallpaper</string>
+    <string name="android_wallpapers">Android Wallpapers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="download_fragment">Download Fragment</string>
+    <string name="best_of_the_month">Best of The Month</string>
+    <string name="saved_wallpaper">Saved Wallpaper</string>
+    <string name="apply_wallpaper">Apply Wallpaper</string>
+    <string name="final_wallpaper">Final Wallpaper</string>
+    <string name="Abstract">Abstract</string>
+    <string name="wallpaper_count">Wallpaper count</string>
+</resources>

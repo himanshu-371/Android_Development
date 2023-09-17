@@ -28,15 +28,16 @@ public class customAdapter extends RecyclerView.Adapter<customAdapter.ViewHolder
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.list_item_games,parent,false);
-        ViewHolder viewHolder = new ViewHolder(view);
-        return viewHolder;
+//        ViewHolder viewHolder = new ViewHolder(view);
+//        return viewHolder;    //OR
+        return  new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.userPhoto.setImageResource(arrListGames.get(position).img);
-        holder.playerName.setText(arrListGames.get(position).playerName);
-        holder.playerID.setText(arrListGames.get(position).playerID);
+        holder.userPhoto_IV.setImageResource(arrListGames.get(position).img);
+        holder.playerName_TV.setText(arrListGames.get(position).playerName);
+        holder.playerID_TV.setText(arrListGames.get(position).playerID);
     }
 
     @Override
@@ -46,16 +47,16 @@ public class customAdapter extends RecyclerView.Adapter<customAdapter.ViewHolder
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView userPhoto;
-        TextView playerName;
-        TextView playerID;
+        ImageView userPhoto_IV;
+        TextView playerName_TV;
+        TextView playerID_TV;
 
         public ViewHolder(View v) {
             super(v);
 
-            userPhoto = itemView.findViewById(R.id.userPhoto);
-            playerName = itemView.findViewById(R.id.NameTV);
-            playerID = itemView.findViewById(R.id.playerIDTV);
+            userPhoto_IV = itemView.findViewById(R.id.userPhoto);
+            playerName_TV = itemView.findViewById(R.id.NameTV);
+            playerID_TV = itemView.findViewById(R.id.playerIDTV);
 
 
         }

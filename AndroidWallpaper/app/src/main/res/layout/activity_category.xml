@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatActivity">
+
+    <TextView
+        android:id="@+id/catTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="39sp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/wallpaperprimary"
+        android:text="@string/Abstract">
+    </TextView>
+
+    <TextView
+        android:id="@+id/catCount"
+        android:layout_below="@+id/catTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/wallpaperprimary"
+        android:text="@string/wallpaper_count">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cat_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/catCount"/>
+
+
+
+</RelativeLayout>
