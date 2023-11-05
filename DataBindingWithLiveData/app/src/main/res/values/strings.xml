@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DataBindingWithLiveData</string>
+    <string name="update_text">update text</string>
+    <string name="hello_world">Hello World!</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExplicitIntentKotlin</string>
+    <string name="click_button_to_naviagte_to_second_activity">Click Button to naviagte\n to Second Activity</string>
+</resources>
